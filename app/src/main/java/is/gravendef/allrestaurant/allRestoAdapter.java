@@ -123,7 +123,7 @@ public class allRestoAdapter extends
         // Get the data model based on position
         allResto allRestos = mallRestos.get(position);
         //allResto name = name1.get(position);
-        holder.name.setText(name1.get(position));
+       // holder.name.setText(name1.get(position));
         allRestos.setImage(holder.imageView);
         //name1.setText(holder.textView);
         String url=allRestos.getName();
