@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:id="@+id/cardBranche"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    app:cardMaxElevation="10dp"
+    app:cardBackgroundColor="#F8F7F6"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:outlineSpotShadowColor="@color/black">
+
+        <!--text view for displaying City-->
+        <TextView
+            android:id="@+id/City"
+            android:layout_width="346dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="City"
+            android:textColor="#CC6615"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <!--text view for displaying address-->
+        <TextView
+            android:id="@+id/Address"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/City"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Address"
+            android:textColor="#E38219"
+            android:textSize="24sp"
+            tools:ignore="TextContrastCheck" />
+
+        <!--text view for displaying user email-->
+        <TextView
+            android:id="@+id/Phone"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Address"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Phone"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/OpenIn"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Phone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="OpenIn"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

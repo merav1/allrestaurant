@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <androidx.core.widget.NestedScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginBottom="50dp"-->
+<!--        android:background="@android:color/white" />-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/trending_recycler_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="110dp"-->
+<!--        android:orientation="horizontal" />-->
+
+<!--    &lt;!&ndash;        android:layout_below="@id/category_title"&ndash;&gt;-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/product_title"-->
+<!--        android:layout_below="@id/trending_recycler_view"-->
+<!--        android:layout_marginTop="20sp"-->
+<!--        android:layout_marginBottom="5dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="home_places"-->
+<!--            android:textSize="22sp"-->
+<!--            android:textColor="@color/purple_200"-->
+<!--            android:layout_marginLeft="15dp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/place_list"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:text="home_view_all"-->
+<!--            android:textSize="14sp"-->
+<!--            android:layout_marginRight="22dp"-->
+<!--            android:textColor="@color/black"/>-->
+<!--&lt;!&ndash;            app:fontFamily="@font/roboto_medium" &ndash;&gt;-->
+
+<!--    </LinearLayout>-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/place_recycler_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_below="@+id/product_title"-->
+<!--        android:layout_marginBottom="10dp" />-->
+
+
+<!--    <LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_alignParentBottom="true"-->
+<!--    android:orientation="vertical">-->
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="4dp"-->
+<!--        android:background="@color/black"/>-->
+
+<!--    &lt;!&ndash;bottom navigation&ndash;&gt;-->
+<!--    <include-->
+<!--            android:id="@+id/include"-->
+<!--            layout="@layout/bottom_navigation"/>-->
+
+<!--</LinearLayout>-->
+
+
+
+</RelativeLayout>

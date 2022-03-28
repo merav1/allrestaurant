@@ -24,8 +24,9 @@
             android:maxWidth="800dp"
             android:maxHeight="850dp"
             android:scaleType="fitXY" />
-    </LinearLayout>
 
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/name_resto"
@@ -36,6 +37,7 @@
         android:textSize="40dp"
         android:text="Name restaurant"
         android:textColor="@color/black" />
+
 
 
 </androidx.cardview.widget.CardView>

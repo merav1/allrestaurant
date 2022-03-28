@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageButton
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:adjustViewBounds="true"
+        android:maxWidth="800dp"
+        android:maxHeight="850dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/image"
+        android:layout_weight="0" />
+
+    <TextView
+        android:id="@+id/nameT"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/image"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:text="name mana"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/nameT"
+        android:layout_weight="0" />
+
+    <TextView
+        android:id="@+id/nameD"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/nameT"
+        android:layout_gravity="center"
+        android:layout_weight="5"
+        android:text="description:
+                    asdfghjk fcgvhbjhuygh fghj"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/nameD"
+        android:layout_weight="0">
+
+        <TextView
+            android:id="@+id/nameP"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/nameD"
+            android:layout_gravity="center"
+            android:text="price    45"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="600dp"
+        android:text="הוסף לסל"
+        android:textSize="30dp"/>
+    </RelativeLayout>
